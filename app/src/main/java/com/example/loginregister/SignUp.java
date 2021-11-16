@@ -19,7 +19,7 @@ public class SignUp extends AppCompatActivity {
 
     TextInputEditText textInputEditTextFullname,textInputEditTextUsername, textInputEditTextPassword, textInputEditTextEmail;
     Button buttonSignUp;
-    TextView textViewLogin;
+    //TextView textViewLogin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +31,7 @@ public class SignUp extends AppCompatActivity {
         textInputEditTextPassword = findViewById(R.id.password);
         textInputEditTextEmail = findViewById(R.id.email);
         buttonSignUp = findViewById(R.id.buttonSignUp);
-        textViewLogin = findViewById(R.id.loginText);
+        //textViewLogin = findViewById(R.id.loginText);
         // progress bar omitted min 41 sec 52
 
         buttonSignUp.setOnClickListener(new View.OnClickListener() {
