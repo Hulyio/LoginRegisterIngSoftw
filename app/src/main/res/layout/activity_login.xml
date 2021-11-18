@@ -66,7 +66,8 @@
                 android:layout_height="wrap_content"
                 android:drawableEnd="@drawable/ic_pass"
                 android:drawableRight="@drawable/ic_pass"
-                tools:targetApi="jelly_bean" />
+                tools:targetApi="jelly_bean"
+                android:inputType="textPassword"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <ProgressBar
